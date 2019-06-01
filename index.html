@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Sass project</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+		<div class="wrapper">
+				<header class="header">
+					<img src="img/ham.png" class="ham" alt="">
+
+						<ul class="header-list active">
+							<li class="header-item"><a href="#" class="header-link">Home</a></li>
+							<li class="header-item"><a href="#" class="header-link">About</a></li>
+							<li class="header-item"><a href="#" class="header-link">Contact</a></li>
+						</ul>
+					
+					<div class="container">
+						<div class="header-info">
+						  <h1 class="header-title">We've got the talent</h1>
+					  <hr class="header-hr">
+					  <div class="header-text">
+					  Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+					  Fuga iusto obcaecati officia voluptas labore illo!
+					</div>
+						</div>
+						<img class="header-icon" src="img/mouse.png" alt="">
+					</div>
+				  </header>
+				  <div class="intro">
+						 <h2 class="intro-title">INTRODUCTION</h2>
+						 <hr class="intro-line">
+						 <div class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>
+							 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							  exercitation ullamco laboris.</div>
+				  </div>
+				  <div class="creative">
+					  <div class="container"> <a href="#" class="creative-link">Pure Creativity.</a></div>
+					 
+				  </div>
+			  </div>
+
+	<script>
+		var ham = document.querySelector(".ham");
+		var headNav = document.querySelector(".header-list")
+
+		ham.addEventListener('click', function(){
+			headNav.classList.toggle("active");
+		});
+		
+	
+	</script>
+	
+</body>
+</html>
