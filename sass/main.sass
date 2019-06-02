@@ -1,5 +1,5 @@
 @import '../node_modules/bourbon/core/bourbon'
-@import '../node_modules/jeet/scss/index'
+
 @import '../node_modules/normalize.scss/normalize'
 
 @import 'parts/var'
@@ -26,7 +26,7 @@
     
 .container
     margin: 0 auto
-    max-width: 1060px
+    max-width: 1160px
     box-sizing: border-box
 .wrapper 
     position: relative
@@ -119,7 +119,7 @@
     background: url(../img/creative.png) no-repeat center center
     position: relative 
     //background-size: cover
-    min-height: 70vh
+    min-height: 65vh
     text-align: center
     overflow: hidden
    
@@ -136,6 +136,52 @@
     margin: 0 auto
     margin-top: 132px
     //font-weight: bold
+
+.work
+    color: black
+
+.work-title
+    text-align: center
+    font-size: rem(30px)
+    padding: 70px 0
+.work-line
+    width: 90px
+.work-nav
+    padding: 90px 0
+    list-style-type: none
+    display: flex
+    flex-direction: column
+    align-items: center
+    +phone
+        flex-direction: row
+        justify-content: space-around
+.work-nav-item
+    margin-bottom: 30px
+   
+
+.work-link
+    text-decoration: none
+    font-size: rem(18px)
+    color: black
+    &:hover
+        color: green
+.work-active
+    font-weight: bold
+.work-items
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    +phone
+        justify-content: space-evenly
+    +laptop
+        justify-content: space-around
+.work-item
+    min-width: 0px
+.work-img
+    max-width: 100%
+
+.work-top
+    margin-bottom: 20px
 
   
     
