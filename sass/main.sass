@@ -135,6 +135,9 @@
     padding: 30px 0
     margin: 0 auto
     margin-top: 132px
+    transition-duration: 0.5s
+    &:hover
+        background: green
     //font-weight: bold
 
 .work
@@ -144,7 +147,7 @@
     text-align: center
     font-size: rem(30px)
     padding: 70px 0
-.work-line
+.line
     width: 90px
 .work-nav
     padding: 90px 0
@@ -179,9 +182,74 @@
     min-width: 0px
 .work-img
     max-width: 100%
+    transition: all 0.2s ease-in-out
+    &:hover
+        transform: scale(1.1)
+        border: solid 2px orangered
 
 .work-top
     margin-bottom: 20px
+.work-button
+    text-decoration: none
+    color: black
+    font-size: rem(24px)
+    display: block
+    border: 3px solid black
+    max-width: 370px
+    height: 34px
+    padding: 30px 0
+    margin: 70px auto
+    text-align: center
+    font-weight: bold
+    transition-duration: 0.5s
+    &:hover
+        background: green
+
+.help
+    background: url(../img/help.png) no-repeat center center
+    position: relative 
+    //background-size: cover
+    min-height: 65vh
+    text-align: center
+    overflow: hidden
+   
+
+.help-link
+    text-decoration: none
+    color: white
+    font-size: rem(25px)
+    display: block
+    border: 3px solid white
+    max-width: 428px
+    height: 40px
+    padding: 30px 0
+    margin: 0 auto
+    margin-top: 212px
+    transition-duration: 0.5s
+    &:hover
+        background: green
+.client 
+    color: black
+    background: #F5F4F3
+.client-title
+    text-align: center
+    font-size: rem(30px)
+    padding: 70px 0
+    margin-top: 0
+
+.client-logos
+    display: flex
+    justify-content: space-evenly
+    flex-wrap: wrap
+    padding: 60px 0
+    
+.client-logo
+    padding: 35px
+    &:hover
+        border: 1px black solid
+
+    
+        
 
   
     
