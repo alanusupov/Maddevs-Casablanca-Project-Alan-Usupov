@@ -608,6 +608,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .line {
   width: 90px;
+  background: #000;
 }
 
 .work-nav {
@@ -741,6 +742,105 @@ h1, h2, h3, h4, h5, h6 {
 }
 .client-logo:hover {
   border: 1px black solid;
+}
+
+.about {
+  color: black;
+  padding-bottom: 70px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 1.875rem;
+  padding: 70px 0;
+  margin-top: 0;
+}
+
+.about-text {
+  max-width: 48.75rem;
+  text-align: center;
+  font-size: 1.375rem;
+  margin: 70px auto;
+}
+
+.about-people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-hire {
+  border: 1px solid #000;
+  width: 270px;
+  height: 360px;
+}
+
+.about-item {
+  margin: 0 15px;
+  position: relative;
+  color: white;
+}
+.about-item:hover {
+  border: 2px solid #000;
+}
+
+.about-sub {
+  position: absolute;
+  bottom: 9%;
+  left: 41%;
+  font-size: 1.5rem;
+}
+
+.about-desc {
+  position: absolute;
+  bottom: 3%;
+  left: 35%;
+  font-size: 1.125rem;
+}
+
+.about-icon {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+.about-hire {
+  color: black;
+}
+.about-hire-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 50px;
+  margin-top: 120px;
+}
+
+.about-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  display: block;
+  border: 3px solid black;
+  max-width: 182px;
+  height: 34px;
+  padding: 8px 0;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+.about-link:hover {
+  background: green;
+}
+
+.line-about {
+  margin-top: -20px;
+  width: 90px;
+  background: #000;
+}
+
+.video {
+  background: url(.../img/video.png) no-repeat center center;
+  min-height: 70vh;
 }
 
 /*# sourceMappingURL=main.css.map */
