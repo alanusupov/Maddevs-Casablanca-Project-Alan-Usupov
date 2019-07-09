@@ -579,13 +579,21 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.links {
+  max-width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .links {
+    max-width: 428px;
+  }
+}
+
 .creative-link {
   text-decoration: none;
   color: white;
   font-size: 1.5625rem;
   display: block;
   border: 3px solid white;
-  max-width: 428px;
   height: 40px;
   padding: 30px 0;
   margin: 0 auto;
@@ -632,7 +640,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .work-nav {
     flex-direction: row;
     justify-content: space-around;
@@ -647,6 +655,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   font-size: 1.125rem;
   color: black;
+  padding: 5px;
 }
 .work-link:hover {
   color: green;
@@ -695,7 +704,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
   display: block;
   border: 3px solid black;
-  max-width: 370px;
   height: 34px;
   padding: 30px 0;
   margin: 70px auto;
@@ -721,7 +729,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5625rem;
   display: block;
   border: 3px solid white;
-  max-width: 428px;
   height: 40px;
   padding: 30px 0;
   margin: 0 auto;
@@ -923,7 +930,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5625rem;
   display: block;
   border: 3px solid white;
-  max-width: 428px;
   height: 40px;
   padding: 30px 0;
   margin: 0 auto;
